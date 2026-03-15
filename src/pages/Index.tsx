@@ -7,6 +7,7 @@ import { TrickCard, type TrickData } from "@/components/TrickCard";
 import { generateTrick } from "@/lib/magic-ai";
 import { SAMPLE_TRICKS } from "@/lib/constants";
 import heroImage from "@/assets/hero-magic.jpg";
+import logoImg from "@/assets/logo.png";
 
 const stagger = {
   hidden: {},
