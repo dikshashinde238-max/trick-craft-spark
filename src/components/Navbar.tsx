@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Sparkles, BookOpen } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export const Navbar = () => {
   const location = useLocation();
@@ -8,7 +9,8 @@ export const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="font-display font-bold text-lg text-foreground tracking-tight">
+        <Link to="/" className="flex items-center gap-2 font-display font-bold text-lg text-foreground tracking-tight">
+          <img src={logo} alt="MagicMind logo" className="w-8 h-8" />
           MagicMind
         </Link>
         <div className="flex gap-1">
