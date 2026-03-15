@@ -1,0 +1,67 @@
+export const SAMPLE_TRICKS = [
+  {
+    title: "The Vanishing Coin",
+    items: "Coin, table, napkin",
+    description: "A coin placed on a table vanishes under a napkin and reappears behind the spectator's ear. The illusion relies on a classic French Drop combined with misdirection through narrative.",
+    steps: [
+      "Place the coin on the table in full view of the audience.",
+      "Cover it with a napkin, pressing down so the outline is visible.",
+      "As you lift the napkin, execute a finger palm to secretly retain the coin.",
+      "Show the napkin empty — the coin has vanished.",
+      "Reach behind the spectator's ear and produce the palmed coin.",
+    ],
+    tip: "Practice the finger palm until it's invisible. The secret is in the wrist angle, not speed.",
+  },
+  {
+    title: "Rubber Band Teleport",
+    items: "Two rubber bands",
+    description: "A rubber band jumps from two fingers to the other two on the same hand, seemingly passing through solid matter. This is a self-working trick that relies on a hidden setup.",
+    steps: [
+      "Place a rubber band around your index and middle fingers.",
+      "Show the audience the band is secure by stretching it.",
+      "Secretly curl all four fingers into the band from below.",
+      "When you open your hand, the band jumps to your ring and pinky fingers.",
+      "Repeat in reverse to teleport it back.",
+    ],
+    tip: "The curl must happen as you close your fist. Cover it with a dramatic gesture.",
+  },
+  {
+    title: "Mind Reading Paper",
+    items: "Paper, pen",
+    description: "You write a prediction on a piece of paper before the spectator makes a choice. The prediction matches every time. This uses the 'one-ahead' principle.",
+    steps: [
+      "Secretly write a common word (e.g., 'RED') on a folded paper.",
+      "Ask the spectator to think of a color and say it aloud.",
+      "Whatever they say, nod and say 'I knew it' — open your prediction.",
+      "If they said RED, you're correct. If not, use verbal misdirection.",
+      "For the advanced version, use a nail writer to adjust in real-time.",
+    ],
+    tip: "Choose high-probability words. 80% of people say 'red' when asked for a color quickly.",
+  },
+  {
+    title: "Floating Pencil",
+    items: "Pencil, clear tape or ring",
+    description: "A pencil appears to float between your hands, defying gravity. The secret mechanism is a thin loop of clear fishing line or tape creating an invisible support.",
+    steps: [
+      "Create a small loop of clear tape sticky-side-out around your thumb.",
+      "Press the pencil against the tape — it will adhere lightly.",
+      "Open your hand slowly, keeping fingers slightly curved.",
+      "The pencil appears to float. Tilt your hand to enhance the illusion.",
+      "To finish, close your hand and break the tape away cleanly.",
+    ],
+    tip: "Perform this at eye level. The angle from below reveals the mechanism.",
+  },
+  {
+    title: "Jumping Rubber Band",
+    items: "Rubber band, second band (optional)",
+    description: "A rubber band wrapped around two fingers impossibly jumps to adjacent fingers when you open your hand. Adding a second 'locking' band on top makes it seem even more impossible.",
+    steps: [
+      "Loop a band around your index and middle fingers at the base.",
+      "Optionally, weave a second band across all fingertips as a 'lock.'",
+      "With your other hand, stretch the first band and insert all fingertips.",
+      "Close your fist — the setup is hidden inside.",
+      "Open your hand quickly. The band jumps to ring and pinky fingers, passing through the lock.",
+    ],
+    tip: "The 'lock' band is the convincer. It makes the trick feel truly impossible to the audience.",
+  },
+];
