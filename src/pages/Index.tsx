@@ -243,7 +243,10 @@ const Home = () => {
       {/* ── Footer ── */}
       <footer className="py-10 px-6 border-t border-border/50">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <span className="font-display font-bold text-foreground">MagicMind</span>
+          <span className="flex items-center gap-2 font-display font-bold text-foreground">
+            <img src={logoImg} alt="MagicMind logo" className="w-6 h-6" />
+            MagicMind
+          </span>
           <span className="text-xs font-mono text-muted-foreground">
             The following sequence creates the illusion of possibility.
           </span>
