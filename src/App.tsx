@@ -17,8 +17,8 @@ const App = () => (
       <Toaster />
       <Sonner />
       <Background />
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/discover" element={<Discover />} />
